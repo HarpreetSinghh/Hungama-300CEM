@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app=""
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_walkthrough"
+    tools:context="com.harpreet.moviereviews.LoginActivity" >
+
+    <EditText
+        android:id="@+id/edpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="77dp"
+        android:layout_alignBottom="@+id/login"
+        android:layout_alignLeft="@+id/eduser"
+        android:layout_alignStart="@+id/eduser"
+        android:textColorHint="@android:color/white" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app2:srcCompat="@drawable/ic_user"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/edpass"
+        android:layout_alignEnd="@+id/edpass"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp" />
+
+    <EditText
+        android:id="@+id/eduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:layout_marginBottom="47dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_above="@+id/edpass"
+        android:layout_centerHorizontal="true">
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
