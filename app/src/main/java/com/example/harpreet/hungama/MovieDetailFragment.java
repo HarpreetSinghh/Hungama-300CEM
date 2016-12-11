@@ -52,15 +52,6 @@ public class MovieDetailFragment extends Fragment {
         videoUrl2Tv.setText(movie.getVideos().get(1));
 
 
-        //Picasso is a image library for android. this simplifies the process for displaying images from the internet.
-        // only 1 line of code is needed to load the images
-
-        Picasso.with(getActivity()).load(Uri.parse(movie.getCast().get(0).getImageUri())).fit().into(imageActor1);
-        Picasso.with(getActivity()).load(Uri.parse(movie.getCast().get(1).getImageUri())).fit().into(imageActor2);
-        Picasso.with(getActivity()).load(Uri.parse(movie.getCast().get(2).getImageUri())).fit().into(imageActor3);
-        return rootView;
-    }
-
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
