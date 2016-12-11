@@ -1,9 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/bg_walkthrough"
-    tools:context="com.harpreet.moviereviews.MovieDetailFragment">
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_walkthrough"
+                tools:context="com.harpreet.moviereviews.MovieDetailFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -140,14 +140,14 @@
 
     </LinearLayout>
 
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="Comments"
-    android:textSize="20sp"
-    android:textColor="@android:color/white"
-    android:layout_marginTop="13dp"
-    android:layout_below="@+id/tvVideoUrl2"
-    android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comments"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/tvVideoUrl2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Hungama</string>
+    <string name="app_name">Movie Reviews</string>
+    <string name="facebook_app_id">1711706485814229</string>
+    <string name="fb_login_protocol_scheme">fb1711706485814229</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="title_activity_normal_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="help_instructions_text">This app is easy to use\nJust log in with your valid facebook username and password or create a new account if you don\'t have one already.Then click on the button with the next symbol on it in the botton right corner of the screen. It starts out empty, but you can click on the overflow menu to select from the menu. For instance you can insert a few movie titles, or go to the settings screen. When the movies are displayed in the listView in the main screen, you can click on the movie you want to go to a detail screen to see details about that movie including a few video highlights about that movie.</string>
+    <string name="button">Button</string>
+    <string name="wearmovieupdate">wear</string>
 </resources>

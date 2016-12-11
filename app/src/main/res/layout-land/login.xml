@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_walkthrough"
+    tools:context="com.harpreet.moviereviews.LoginActivity" >
+
+    <Button
+        android:id="@+id/not_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Registed ?"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="80dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app2:srcCompat="@drawable/ic_user"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@+id/not_reg"
+        android:layout_alignLeft="@+id/not_reg"
+        android:layout_alignStart="@+id/not_reg"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <EditText
+        android:id="@+id/eduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/edpass"
+        android:layout_alignStart="@+id/edpass"
+        android:layout_marginTop="20dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/login"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
