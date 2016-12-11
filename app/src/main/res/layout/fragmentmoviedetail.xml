@@ -1,6 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_walkthrough"
+    tools:context="com.harpreet.moviereviews.MovieDetailFragment">
 
-</LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:text="Rating"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/tvReviewsAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll"
+        android:text="Reviews"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvCastLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvReviewsAmount"
+        android:layout_marginTop="12dp"
+        android:text="Cast:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/tvVideoUrl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvVideoUrl2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tvVideoUrl2"
+        android:layout_below="@+id/tvVideosLabel"
+        android:autoLink="web"
+        android:hint="video_url_1"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvVideoUrl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvVideoUrl1"
+        android:layout_margin="4dp"
+        android:autoLink="web"
+        android:hint="video_url_2"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvVideosLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Videos:"
+        android:textSize="24sp"
+        android:layout_below="@+id/linearActorsImgs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRating"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RatingBar
+            android:id="@+id/tvMovieRating"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="19dp"
+            android:numStars="7"
+            android:padding="4dp"/>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearActorsImgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCastLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imgActor1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_user"
+            />
+
+        <ImageView
+            android:id="@+id/imgActor2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_user"
+            />
+
+        <ImageView
+            android:id="@+id/imgActor3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_user"
+            />
+
+
+    </LinearLayout>
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Comments"
+    android:textSize="20sp"
+    android:textColor="@android:color/white"
+    android:layout_marginTop="13dp"
+    android:layout_below="@+id/tvVideoUrl2"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
