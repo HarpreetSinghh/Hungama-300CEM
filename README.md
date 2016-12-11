@@ -21,14 +21,23 @@ The app design checks off the following requirements that were demanded by the 3
 
 User Interface/Layout/Design
 •	Movies are displayed in the main layout via a list view
+
 •	UI contains a screen for displaying the details for a selected movie
+
 •	Movie Details layout contains title, rating, movie cast images, videos, and review amount.
+
 •	The user is presented with a login screen where they can login with desi hungama or with Facebook to view the movies.
+
 •	Loads up with sound and animation when the app is started.
+
 •	Get movie notifications on the phone and wearable daily. 
+
 Data Persistence
+
 •	App saves all the movies in a database when closing an app and re-opening it. 
+
 •	When the ‘refresh’ option is selected from the action bar, the main view displays the entire movies collection based on movie IDs stored in a database.
+
 •	When user has logged in with Facebook and when the application is closed by the user and re-opened, the Facebook login is still there so they do not need to log in again; only if they logged out by clicking on the button.
 
 
