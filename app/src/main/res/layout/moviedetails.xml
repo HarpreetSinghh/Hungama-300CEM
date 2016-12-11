@@ -9,13 +9,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.harpreet.hungama">
+    tools:context="com.harpreet.moviereviews.MovieDetailActivity">
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/fragment_detail"
-        android:name="com.example.harpreet.hungama"
+        android:name="com.harpreet.moviereviews.MovieDetailFragment"
         tools:layout="@layout/fragmentmoviedetail" />
 
 </RelativeLayout>
