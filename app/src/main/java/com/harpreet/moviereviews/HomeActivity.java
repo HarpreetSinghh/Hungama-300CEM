@@ -65,8 +65,8 @@ public class HomeActivity extends AppCompatActivity {
 
                 // HOUR OF DAY == 24 hour clock is used
                 // Minute and Second == which minute and second i want the alarm to trigger.
-                calendar.set(Calendar.HOUR_OF_DAY,00);
-                calendar.set(Calendar.MINUTE,38);
+                calendar.set(Calendar.HOUR_OF_DAY,05);
+                calendar.set(Calendar.MINUTE,25);
                 calendar.set(Calendar.SECOND,30);
 
                 Intent intent = new Intent(getApplicationContext(),Notification_reciever.class);
