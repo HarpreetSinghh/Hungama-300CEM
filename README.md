@@ -69,7 +69,29 @@ Picasso library took all the work out of downloading and inserting images for th
 
 ## Appendix – Application Screenshots
 
+<img width="291" alt="screenshot1" src="https://cloud.githubusercontent.com/assets/9287724/21084683/3788ed5a-bfff-11e6-833f-09a36d619527.png">
 
+<img width="289" alt="screenshot2" src="https://cloud.githubusercontent.com/assets/9287724/21084694/5ece6a16-bfff-11e6-829a-a97258fa701d.png">
+
+<img width="292" alt="screenshot3" src="https://cloud.githubusercontent.com/assets/9287724/21084696/6d77a140-bfff-11e6-8aed-a4514cd1c8ed.png">
+
+<img width="291" alt="screenshot4" src="https://cloud.githubusercontent.com/assets/9287724/21084698/75f24d20-bfff-11e6-8726-9dc6438d5fae.png">
+
+<img width="290" alt="screenshot5" src="https://cloud.githubusercontent.com/assets/9287724/21084699/7e34e33a-bfff-11e6-8a9b-649d24e35a29.png">
+
+<img width="290" alt="screenshot6" src="https://cloud.githubusercontent.com/assets/9287724/21084701/87864f14-bfff-11e6-909e-749a738e0d04.png">
+
+<img width="290" alt="screenshot7" src="https://cloud.githubusercontent.com/assets/9287724/21084704/8f468e1c-bfff-11e6-82e2-7eb4385253f9.png">
+
+<img width="290" alt="screenshot8" src="https://cloud.githubusercontent.com/assets/9287724/21084705/96ff4b80-bfff-11e6-99b6-847e2990ce67.png">
+
+<img width="289" alt="screenshot9" src="https://cloud.githubusercontent.com/assets/9287724/21084707/a0270464-bfff-11e6-8ea6-9c32099025de.png">
+
+<img width="290" alt="screenshot10" src="https://cloud.githubusercontent.com/assets/9287724/21084708/a7560c80-bfff-11e6-9ce0-c27d5df2d4b6.png">
+
+<img width="289" alt="screenshot11" src="https://cloud.githubusercontent.com/assets/9287724/21084711/b12e0c26-bfff-11e6-8d21-1056c1393ff9.png">
+
+<img width="291" alt="screenshot12" src="https://cloud.githubusercontent.com/assets/9287724/21084715/b98f1bee-bfff-11e6-819f-5061f99792e3.png">
 
 ## License
 
